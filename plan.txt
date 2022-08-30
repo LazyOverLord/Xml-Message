@@ -1,0 +1,45 @@
+I think its cool
+
+
+Group Chat room
+
+characteristics
+
+says what the ip address of each user is 
+
+username of each user
+
+name of chat room
+
+Messages 
+
+Text 
+Image
+url
+(MEME)
+
+audio recording
+
+
+EX.
+
+<ROOM>
+	<NAME> ROOM NAME </NAME> 
+	<USERS> <@username:networkInfo/> <@username2:networkInfo/> </USERS>
+	
+	<MESSAGES> OLDER MESSAGES GO HERE </MESSAGES>
+
+	<HEAD> NEWEST MESSAGE </HEAD> 
+
+</ROOM>
+
+
+USER MESSAGE FORMAT 
+
+<@username:type:recipent:datetime> MESSAGE </@username:messageHash>
+
+Type: is the type of message sent
+recipent : the username that recieved the message
+datetime: the time that the message was sent
+
+messageHash: the hash of the message used for read reciepts
