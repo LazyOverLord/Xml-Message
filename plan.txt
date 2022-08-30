@@ -25,6 +25,7 @@ EX.
 
 <ROOM>
 	<NAME> ROOM NAME </NAME> 
+    <STYLE> ALLOW CUSTIMIZATION </STYLE> 
 	<USERS> <@username:networkInfo/> <@username2:networkInfo/> </USERS>
 	
 	<MESSAGES> OLDER MESSAGES GO HERE </MESSAGES>
