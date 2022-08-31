@@ -51,6 +51,15 @@ public class Room {
 
         Element head = new Element("HEAD");
 
+        String[] testMessages = {"Sutton page rocks a lot","Connor stinks a lot"};
+
+        for(String item: testMessages){
+
+            Element m = new Element(this.userName);
+            m.setText(item);
+            mess.addContent(m);
+        }
+
 
         // Adding all elements to root element
 
